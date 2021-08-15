@@ -11,3 +11,12 @@
    Image contains startup command and file system snapshot
    when docker run is written, default startup command is executed
    
+ 3. docker run busybox echo hello sushma
+    in place of startup command run the command echo hello sushma
+    will run hello sushma and will exit
+        
+ 4. docker run busybox ls
+    lists all files and folders inside busybox
+    
+ 5. 
+   
