@@ -1,0 +1,6 @@
+1. docker version  --> from windows I'm calling the software docker which is installed in ubuntu OS
+   docker client
+   docker server
+   
+2. docker run hello-world
+   
