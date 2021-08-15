@@ -3,4 +3,9 @@
    docker server
    
 2. docker run hello-world
+   you have asked hey docker client give me hello world message
+   docker client asks docker server
+   docker server searches whether image to display hello-world is present in local cache or not
+   if it is not there then it pulls the image from github
+   it creates container from image. 
    
