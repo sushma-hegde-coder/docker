@@ -1,0 +1,18 @@
+Step 1. Specify the base image
+Step 2. Download and install dependencies
+Step 3. Setup the startup command
+
+docker build .   -> crates image
+ 
+docker run build-id  -> creates container
+
+docker build -t harry/redis:latest
+        tag  docker-uname image-name version
+        
+docker run harry/redis
+
+docker run -it alpine sh
+
+
+        
+        
