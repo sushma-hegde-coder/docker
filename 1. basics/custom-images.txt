@@ -1,0 +1,10 @@
+How to create custome images?
+1. Choose a base image
+2. Run commands for your software
+3. Specify the base command to be run at startup
+
+
+docker build .        -> creates image
+
+docker run build-id  -> creates container
+
