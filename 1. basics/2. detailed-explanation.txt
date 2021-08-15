@@ -1,0 +1,37 @@
+-> If you want any software for ex redis, you will first google redis download. Then you will install it. Then you get error. You search in stack overflow. You solve that error
+   after sometime, you will get another error
+-> A software named docker solves this issue. You don't have to download and install the software. You just have to install software named docker. Run the command
+   "docker run redis" . Redis software is downloaded and installed in your machine without any searching in google and without you getting any errors
+-> When I say docker it means whole docker ecosystem 
+   docker client,docker server, docker machine,docker hub,docker compose
+   docker client- CLI - tool through which programmer interacts           docker run redis     Docker client   --> hey docker make redis container up means 
+                         (runs in windows)                                                         CLI             hey docker install software named redis
+                                                                                                    |
+                                                                                                    |
+                                                                                                    |
+                                                                                                    |
+                                                                                                    |
+                                                                                                    |
+                                                                                                   \/                                       
+  docker server- docker daemon - runs in host OS linux(ubuntu) gives info                             Docker server  -> searches redis image in cache
+                 converts image into container                                                   (Daemon)         if image is not there then downloads image from docker hub
+                 runs the container                                                                               creates container from image (that means it installs redis)
+                 stops the container         
+                 
+  Image- like seed - has all capability of forming container - has all data(information) - is a file with all dependencies and configurations   
+  Container- like tree - is software that runs in machine - software+resource  - HD,CPU,RAM all resources are allocated 
+             Runs in your machine and Eats up all the resources of your machine
+             It is a process which has specific set of HD, CPU --all resources allocated in limited
+             
+             
+ 
+                                                                                                                 
+  
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                     
+                                                                                            
+   
