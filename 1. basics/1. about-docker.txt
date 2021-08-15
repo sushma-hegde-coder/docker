@@ -1,3 +1,3 @@
 Docker is a software which (is installed)works in Linux OS
-Just install the software docker you can run any software in the world by just typing docker run software-name
+Just install one software docker you can run(downloads and runs) any software in the world by just typing docker run software-name. Y
 
