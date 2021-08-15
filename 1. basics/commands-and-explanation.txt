@@ -3,6 +3,7 @@
    docker server
    
 2. docker run hello-world
+   combination of 2 commands -docker create + docker start
    you have asked hey docker client give me hello world message
    docker client asks docker server
    docker server searches whether image to display hello-world is present in local cache or not
@@ -11,6 +12,10 @@
    Image contains startup command and file system snapshot
    when docker run is written, default startup command is executed
    
+   docker create hello-world
+   
+   docker start -a hashed-string-copy-paste-from-create  -> attach to the container and give container's output to my terminal- whatever is happening inside the container         show me
+   
  3. docker run busybox echo hello sushma
     in place of startup command run the command echo hello sushma
     will run hello sushma and will exit
@@ -18,5 +23,46 @@
  4. docker run busybox ls
     lists all files and folders inside busybox
     
- 5. 
+ 5. docker ps
+    gives info of containers that are still running in your machine
+    
+ 6. docker ps --all 
+    all containers which are running ,which finished
+    
+ 7. docker stop container-id 
+    tell the process to stop
+    
+ 8. docker kill container-id
+    stop whatever you are doing right away and close yourself(if container is not getting stoped then use kill)
+ 
+ 6. docker logs container-id 
+    to see what is there inside a container
+    
+ 7. docker exec -i -t container-id sh
+    sh -> is a command processor, sh starts terminal inside container
+    -i-> attach me to stdin whatever I type in docker client CLI should run inside docker container and get o/p,make sure the stuff I type is directed to stdin of docker process, 
+    -t -> pretty format
+    go inside container and see what is there in it
+    now you are inside the container
+     1. ls  --> see the files and folders inside the contaienr
+     2. cd ../
+     3. ls --> you can see -> bin    lib    local  sbin   share  src -> this is the file system snapshot
+     4. ctrl+d or type exit to exit
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+    
+    
+    
    
