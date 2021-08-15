@@ -8,4 +8,6 @@
    docker server searches whether image to display hello-world is present in local cache or not
    if it is not there then it pulls the image from github
    it creates container from image. 
+   Image contains startup command and file system snapshot
+   when docker run is written, default startup command is executed
    
