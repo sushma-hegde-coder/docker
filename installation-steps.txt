@@ -1,0 +1,12 @@
+1. I want to configure a virtual machine on my physical machine. So download virtualbox --> a software to configure VM on top of my machine
+   Here I want linux(ubuntu) on top of windows
+   Docker operates inside Virtual machine(here we have windows and docker works under linux)
+2. Docker quickstart terminal - Spins(boot up) VM and sets up(configure) docker in windows 10
+3. docker version
+   2 components of docker - docker client and docker server
+   docker client reachs out to docker server
+   docker client - from where are you using docker - OS is windoes
+   docker server- docker operates inside VM linux (docker is a software that runs in Linux OS)
+   
+   
+
