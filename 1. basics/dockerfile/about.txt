@@ -12,6 +12,12 @@ docker build -t harry/redis:latest
 docker run harry/redis
 
 docker run -it alpine sh
+  --> can run any command inside
+  
+  
+docker commit -c 'CMD "redis-server"' container-id
+
+docker run starting-some-letters-of-container-id-with-unique
 
 
         
