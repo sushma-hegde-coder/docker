@@ -19,6 +19,8 @@
                  stops the container         
                  
   Image- like seed - has all capability of forming container - has all data(information) - is a file with all dependencies and configurations   
+                     image contains file system snapshot->files and folders which make the software and startup command
+                    
   Container- like tree - is software that runs in machine - software+resource  - HD,CPU,RAM all resources are allocated 
              Runs in your machine and Eats up all the resources of your machine
              It is a process which has specific set of HD, CPU --all resources allocated in limited
