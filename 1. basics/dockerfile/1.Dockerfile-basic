@@ -1,3 +1,7 @@
+FROM 
+RUN 
+CMD
+
 #Step1. Specify the base image
 From alpine
 
